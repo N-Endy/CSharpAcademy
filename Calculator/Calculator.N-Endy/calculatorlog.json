@@ -1,0 +1,10 @@
+{
+  "Operations": [
+    {
+      "Num1": 4.0,
+      "Num2": 0.0,
+      "Operation": "Divide",
+      "Result": "NaN"
+    }
+  ]
+}
