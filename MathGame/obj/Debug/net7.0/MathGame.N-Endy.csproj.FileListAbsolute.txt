@@ -1,0 +1,15 @@
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/bin/Debug/net7.0/MathGame.N-Endy
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/bin/Debug/net7.0/MathGame.N-Endy.deps.json
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/bin/Debug/net7.0/MathGame.N-Endy.runtimeconfig.json
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/bin/Debug/net7.0/MathGame.N-Endy.dll
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/bin/Debug/net7.0/MathGame.N-Endy.pdb
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.csproj.AssemblyReference.cache
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.GeneratedMSBuildEditorConfig.editorconfig
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.AssemblyInfoInputs.cache
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.AssemblyInfo.cs
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.csproj.CoreCompileInputs.cache
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.dll
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/refint/MathGame.N-Endy.dll
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.pdb
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/MathGame.N-Endy.genruntimeconfig.cache
+/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/obj/Debug/net7.0/ref/MathGame.N-Endy.dll

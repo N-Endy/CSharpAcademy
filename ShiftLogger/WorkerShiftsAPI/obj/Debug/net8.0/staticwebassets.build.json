@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0KfcOBGpBXCmtCRpgjaFWVzcszueIx2ZzkNfxtDRV5o=",
+  "Source": "WorkerShiftsAPI",
+  "BasePath": "_content/WorkerShiftsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

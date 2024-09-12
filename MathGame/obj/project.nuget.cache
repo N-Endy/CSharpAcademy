@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qiVqEDLdjOPrtPhORDxB5t8MizH4PBOIO3CzyGNAUobMMr3GZpbKhcC9tnTxbU9zDFh7jTq4DK5hiXaXZT1gMg==",
+  "success": true,
+  "projectFilePath": "/home/nelson/Desktop/C#/AcadamyC#/CodeReviews.Console.MathGame/MathGame.N-Endy/MathGame.N-Endy.csproj",
+  "expectedPackageFiles": [
+    "/home/nelson/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.17/microsoft.netcore.app.host.linux-x64.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
