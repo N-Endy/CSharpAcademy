@@ -5,9 +5,9 @@ namespace CodingTracker.Utilities
 {
     public class Utils : IUtils
     {
-        private readonly IUserInteraction? _userInteraction;
+        private readonly IUserInteraction _userInteraction;
 
-        public Utils(IUserInteraction? userInteraction)
+        public Utils(IUserInteraction userInteraction)
         {
             _userInteraction = userInteraction;
         }
@@ -98,7 +98,7 @@ namespace CodingTracker.Utilities
                 ValidatedTimes();
             }
 
-            return [startTime, endTime];
+            return new List<DateTime> { startTime, endTime };
         }
 
         public int ConvertToInt(string input) => Convert.ToInt32(input);

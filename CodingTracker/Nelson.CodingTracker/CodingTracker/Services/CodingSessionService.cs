@@ -54,7 +54,7 @@ namespace CodingTracker.Services
             // Show table of sessions
             GetAllSessions();
 
-            _userInteraction?.ShowMessageTimeout("\n\n[Yellow]Please type the ID of the session you would like to update. Type 0 to return to Main Menu: [/]");
+            _userInteraction.ShowMessageTimeout("\n\n[Yellow]Please type the ID of the session you would like to update. Type 0 to return to Main Menu: [/]");
 
             int id = _utils.ConvertToInt(_userInteraction.GetUserInput());
 
@@ -115,9 +115,19 @@ namespace CodingTracker.Services
 
             _userInteraction.ShowMessage("\n[Green]Which period do you want to filter by? (days, hours, minutes)[/]. Press '0' to exit: ");
 
-            string period = _userInteraction.GetUserInput();
+            string period = "";
 
-            if (period == "0") return;
+            do
+            {
+                period = _userInteraction.GetUserInput().ToLower();
+                if (period == "0") return; // Exit if '0' is pressed
+
+                if (period != "days" && period != "hours" && period != "minutes")
+                {
+                    _userInteraction.ShowMessage("\n[Red]Invalid input. Please enter 'days', 'hours', or 'minutes': [/]");
+                }
+
+            } while (period != "days" && period != "hours" && period != "minutes");
 
             switch (period)
             {
