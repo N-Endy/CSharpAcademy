@@ -98,9 +98,7 @@ namespace CodingTracker.Utilities
                 ValidatedTimes();
             }
 
-            return new List<DateTime> { startTime, endTime };
+            return [startTime, endTime];
         }
-
-        public int ConvertToInt(string input) => Convert.ToInt32(input);
     }
 }
