@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ej+SG9Wl2gkxjpUDoctfb0uZaujyjHifmOO3QIVMOseS7p5b0FKVPxqlxTI4OKgbiqe0wMp2rlORIISrBAyjBw==",
+  "success": true,
+  "projectFilePath": "/home/nelson/Desktop/Projects/CSharpAcademy/MatchPredictor/WebScraper/WebScraper.csproj",
+  "expectedPackageFiles": [
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/selenium.webdriver/4.24.0/selenium.webdriver.4.24.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/selenium.webdriver.chromedriver/129.0.6668.5800/selenium.webdriver.chromedriver.129.0.6668.5800.nupkg.sha512",
+    "/home/nelson/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}

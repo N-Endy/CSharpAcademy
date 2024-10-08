@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xf5tmGuumpajTAA2RtrlG3qHPzE8K6xUYmpSOTx136zkgiVFEahtWOxY6TCo2sei6wJVZ6skAPI/C0BiTcPF4Q==",
+  "success": true,
+  "projectFilePath": "/home/nelson/Desktop/Projects/CSharpAcademy/MatchPredictor/Email/Email.csproj",
+  "expectedPackageFiles": [
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}
