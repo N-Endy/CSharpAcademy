@@ -1,77 +1,46 @@
 Id,Date,League,HomeTeam,AwayTeam,HomeWin,Draw,AwayWin,OverOneGoal,OverTwoGoals,OverThreeGoals,OverFourGoals,UnderOneGoal,UnderTwoGoals,UnderThreeGoals,UnderFourGoals
-3,8.10.2024 12:00,England - Professional Development League U21,Queens Park Rangers,Bristol City,0.127,0.151,0.722,0,0,0.581,0.475,0,0,0.419,0.525
-5,8.10.2024 12:30,Argentina - Reserve League,Club Sportivo Barracas,Atlas,0.915,0.057,0.027,0,0,0.651,0.559,0,0,0.349,0.441
-15,8.10.2024 13:00,Slovakia - Cup,TJ Banik Kalinovo,FK Pohronie,0.093,0.148,0.759,0,0,0.518,0.393,0,0,0.482,0.607
-27,8.10.2024 15:00,Argentina - Reserve League,CA Excursionistas,Acassuso,0.782,0.124,0.094,0,0,0.597,0.492,0,0,0.403,0.508
-33,8.10.2024 17:00,Argentina - Reserve League,Colegiales,CSD Liniers,0.66,0.219,0.121,0.712,0.462,0,0,0.288,0.538,0,0
-35,8.10.2024 17:00,Norway - 3rd Division Group 3,Mjondalen IF II,Ullern FC,0.123,0.176,0.701,0,0,0.502,0.387,0,0,0.498,0.613
-36,8.10.2024 17:30,Israel - Liga Bet,Ironi Kiryat Gat,Maccabi Ramla,0.827,0.113,0.06,0,0,0.533,0.417,0,0,0.467,0.583
-39,8.10.2024 18:00,Colombia - Regional League,Rionegro Aguilas,Politecnico J.I.C,0.688,0.183,0.129,0,0.626,0.402,0,0,0.374,0.598,0
-43,8.10.2024 18:00,England - EFL Trophy,Rotherham,Newcastle United U21,0.69,0.182,0.128,0,0.627,0.397,0,0,0.373,0.603,0
-47,8.10.2024 18:00,Belgium - Super League Women,Anderlecht,Club Brugge,0.863,0.083,0.054,0,0,0.509,0.387,0,0,0.491,0.613
-61,8.10.2024 18:30,England - EFL Trophy,Wrexham,Wolverhampton Wanderers U21,0.865,0.091,0.044,0,0,0.545,0.424,0,0,0.455,0.576
-64,8.10.2024 18:45,Ireland - Leinster Senior Cup,St. Patrick's Athletic,St. Mochtas,0.754,0.137,0.109,0,0,0.585,0.479,0,0,0.415,0.521
-81,8.10.2024 18:45,England - FA Cup,Lowestoft Town,Haringey Borough,0.692,0.199,0.11,0,0.594,0.373,0,0,0.406,0.627,0
-82,8.10.2024 18:45,England - FA Cup,Chesham United,Bishops Cleeve,0.823,0.12,0.057,0,0.657,0.431,0.295,0,0.343,0.569,0.705
-83,8.10.2024 18:45,England - EFL Trophy,Bolton Wanderers,Aston Villa U21,0.676,0.18,0.144,0,0,0.511,0.389,0,0,0.489,0.611
-85,8.10.2024 18:45,Northern Ireland - County Antrim Shield,Glentoran,Carrick Rangers,0.668,0.167,0.165,0,0.613,0.382,0,0,0.387,0.618,0
-94,8.10.2024 18:45,England - Northern Premier League,Worksop,Prescot Cables FC,0.75,0.145,0.106,0,0.651,0.418,0.285,0,0.349,0.582,0.715
-98,8.10.2024 19:00,UEFA - Champions League Women,Chelsea,Real Madrid,0.692,0.183,0.124,0,0.67,0.439,0.303,0,0.33,0.561,0.697
-104,8.10.2024 23:00,Paraguay - Cup,Olimpia Asuncion,3 de Febrero,0.795,0.15,0.055,0,0.508,0,0,0,0.492,0,0
-111,9.10.2024 12:00,Greece - Cup,Kavala,Asteras Tripolis,0.114,0.196,0.69,0,0.515,0,0,0,0.485,0,0
-113,9.10.2024 16:45,UEFA - Champions League Women,Hammarby,SKN St Polten,0.754,0.137,0.108,0,0.59,0.355,0,0,0.41,0.645,0
-119,9.10.2024 18:45,Wales - Premier League,The New Saints,Caernarfon Town,0.885,0.076,0.039,0,0,0.604,0.502,0,0,0.396,0.498
-138,10.10.2024 9:10,FIFA - World Cup Qualifiers Asia,Australia,China,0.856,0.119,0.025,0.798,0.58,0.354,0,0.202,0.42,0.646,0
-141,10.10.2024 16:00,FIFA - World Cup Qualifiers Asia,Qatar,Kyrgyzstan,0.76,0.177,0.063,0.778,0.548,0.326,0,0.222,0.452,0.674,0
-146,10.10.2024 16:00,UEFA - Nations League D,Moldova,Andorra,0.715,0.211,0.074,0.653,0.386,0.189,0,0.347,0.614,0.811,0
-149,10.10.2024 18:45,UEFA - Nations League B,England,Greece,0.767,0.164,0.069,0.767,0.529,0.305,0,0.233,0.471,0.695,0
-150,10.10.2024 18:45,UEFA - Nations League B,Austria,Kazakhstan,0.856,0.103,0.041,0.848,0.656,0.43,0,0.152,0.344,0.57,0
-156,10.10.2024 18:45,UEFA - Nations League A,Israel,France,0.066,0.129,0.804,0,0.646,0.418,0.282,0,0.354,0.582,0.718
-175,11.10.2024 18:45,UEFA - Nations League B,Turkey,Montenegro,0.704,0.185,0.111,0.787,0.557,0.333,0,0.213,0.443,0.667,0
-179,11.10.2024 18:45,UEFA - Nations League A,Bosnia and Herzegovina,Germany,0.074,0.14,0.786,0,0.648,0.423,0.289,0,0.352,0.577,0.711
-182,11.10.2024 22:00,Uruguay - Primera Division,Penarol,Deportivo Maldonado,0.727,0.19,0.083,0.723,0.473,0.258,0,0.277,0.527,0.742,0
-224,12.10.2024 18:45,UEFA - Nations League A,Spain,Denmark,0.706,0.189,0.106,0,0.548,0.322,0,0,0.452,0.678,0
-229,12.10.2024 20:00,Brazil - Serie B,Ceara,Ponte Preta,0.69,0.206,0.104,0.737,0.486,0.269,0,0.263,0.514,0.731,0
-239,12.10.2024 23:30,USA - Major League Soccer,Columbus Crew,New England Revolution,0.702,0.169,0.129,0.86,0.677,0.459,0,0.14,0.323,0.541,0
-251,13.10.2024 14:00,England - Women Super League,Liverpool,Manchester City,0.13,0.165,0.705,0,0.58,0.353,0,0,0.42,0.647,0
-263,13.10.2024 18:00,Mexico - Liga de Expansión MX,Leones Negros UdeG,Atletico La Paz,0.711,0.176,0.113,0.814,0.599,0.374,0,0.186,0.401,0.626,0
-278,13.10.2024 22:30,Paraguay - Division Profesional,Cerro Porteno,General Caballero,0.689,0.2,0.11,0.745,0.5,0.277,0,0.255,0.5,0.723,0
-285,14.10.2024 18:45,Ireland - Premier,Derry City,Sligo Rovers,0.712,0.183,0.105,0.779,0.552,0.323,0,0.221,0.448,0.677,0
-298,18.10.2024 15:00,Russia - Premier League,Akron Togliatti,FC Zenit Saint Petersburg,0.12,0.194,0.685,0.775,0.542,0.316,0,0.225,0.458,0.684,0
-303,18.10.2024 17:00,Denmark - Superliga,FC Copenhagen,Vejle,0.809,0.123,0.067,0.866,0.688,0.469,0,0.134,0.312,0.531,0
-313,18.10.2024 18:30,Germany - Bundesliga,Borussia Dortmund,St Pauli,0.768,0.144,0.088,0,0.68,0.461,0.331,0,0.32,0.539,0.669
-319,18.10.2024 23:00,Brazil - Serie A,Botafogo FR RJ,Criciuma,0.677,0.201,0.121,0.768,0.529,0.305,0,0.232,0.471,0.695,0
-337,19.10.2024 11:00,Finland - Veikkausliiga,FC Lahti,EIF,0.771,0.149,0.08,0.837,0.634,0.411,0,0.163,0.366,0.589,0
-347,19.10.2024 11:30,England - Premier League,Tottenham Hotspur,West Ham United,0.655,0.186,0.158,0,0.697,0.479,0.352,0,0.303,0.521,0.648
-354,19.10.2024 12:00,Spain - La Liga,Athletic Club Bilbao,Espanyol,0.665,0.221,0.114,0.725,0.482,0.251,0,0.275,0.518,0.749,0
-367,19.10.2024 13:30,Germany - Bundesliga,Bayer Leverkusen,Eintracht Frankfurt,0.69,0.172,0.139,0,0.697,0.479,0.351,0,0.303,0.521,0.649
-374,19.10.2024 14:00,Scotland - Premiership,Celtic,Aberdeen,0.771,0.137,0.092,0.845,0.663,0.448,0,0.155,0.337,0.552,0
-378,19.10.2024 14:00,Norway - Eliteserien,Molde,Sandefjord,0.709,0.165,0.125,0.868,0.689,0.473,0.344,0.132,0.311,0.527,0.656
-393,19.10.2024 15:00,Austria - Bundesliga,Sturm Graz,Grazer AK,0.658,0.189,0.153,0.827,0.622,0.397,0,0.173,0.378,0.603,0
-394,19.10.2024 15:00,Austria - Bundesliga,FC Salzburg,SCR Altach,0.759,0.15,0.091,0.842,0.646,0.421,0,0.158,0.354,0.579,0
-398,19.10.2024 15:00,Finland - Veikkausliiga,Ilves,SJK,0.665,0.186,0.149,0.875,0.698,0.489,0.37,0.125,0.302,0.511,0.63
-406,19.10.2024 16:00,Turkey - Super League,Antalyaspor,Galatasaray,0.12,0.176,0.704,0.851,0.661,0.439,0,0.149,0.339,0.561,0
-409,19.10.2024 16:00,Italy - Serie A,AC Milan,Udinese,0.727,0.171,0.103,0,0.604,0.373,0.237,0,0.396,0.627,0.763
-412,19.10.2024 16:30,Germany - Bundesliga,Bayern Munich,Stuttgart,0.721,0.157,0.122,0,0.733,0.524,0.405,0,0.267,0.476,0.595
-418,19.10.2024 18:00,Netherlands - Eredivisie,RKC Waalwijk,FC Twente,0.115,0.174,0.711,0.833,0.627,0.399,0,0.167,0.373,0.601,0
-427,19.10.2024 19:00,France - Ligue 1,Paris Saint-Germain,Strasbourg,0.757,0.142,0.101,0,0.713,0.495,0.368,0,0.287,0.505,0.632
-441,20.10.2024 1:05,Mexico - Primera Division,Club America,Santos Laguna,0.776,0.145,0.079,0.82,0.611,0.387,0,0.18,0.389,0.613,0
-450,20.10.2024 11:30,Belgium - Pro League,Genk,Sint Truidense,0.677,0.184,0.139,0.833,0.632,0.407,0,0.167,0.368,0.593,0
-462,20.10.2024 12:30,Netherlands - Eredivisie,Heracles Almelo,Ajax,0.124,0.176,0.7,0.829,0.627,0.401,0,0.171,0.373,0.599,0
-466,20.10.2024 13:00,Turkey - Super League,Besiktas,Konyaspor,0.695,0.195,0.11,0.777,0.545,0.318,0,0.223,0.455,0.682,0
-473,20.10.2024 13:00,England - Premier League,Wolves,Manchester City,0.096,0.151,0.753,0,0.661,0.443,0.31,0,0.339,0.557,0.69
-479,20.10.2024 14:15,Spain - La Liga,Atletico Madrid,Leganes,0.725,0.19,0.085,0.704,0.455,0,0,0.296,0.545,0,0
-481,20.10.2024 14:30,Switzerland - Super League,Lausanne-Sport,Winterthur,0.658,0.2,0.142,0.824,0.615,0.394,0,0.176,0.385,0.606,0
-488,20.10.2024 15:00,Norway - Eliteserien,Viking,Odd BK,0.713,0.164,0.123,0.857,0.671,0.451,0,0.143,0.329,0.549,0
-511,20.10.2024 19:00,Spain - La Liga,Barcelona,Sevilla,0.744,0.157,0.099,0,0.659,0.437,0.302,0,0.341,0.563,0.698
-522,22.10.2024 16:45,UEFA - Champions League,AC Milan,Club Brugge,0.654,0.204,0.142,0,0.57,0.346,0,0,0.43,0.654,0
-523,22.10.2024 16:45,UEFA - Champions League,Monaco,Crvena Zvezda,0.712,0.172,0.116,0,0.65,0.416,0.28,0,0.35,0.584,0.72
-524,22.10.2024 19:00,UEFA - Champions League,Real Madrid,Borussia Dortmund,0.655,0.185,0.16,0,0.687,0.46,0.326,0,0.313,0.54,0.674
-526,22.10.2024 19:00,UEFA - Champions League,Girona,Slovan Bratislava,0.834,0.11,0.055,0,0.698,0.478,0.346,0,0.302,0.522,0.654
-528,22.10.2024 19:00,UEFA - Champions League,Sturm Graz,Sporting CP,0.115,0.177,0.709,0,0.63,0.408,0.276,0,0.37,0.592,0.724
-529,22.10.2024 19:00,UEFA - Champions League,Arsenal,Shakhtar Donetsk,0.903,0.065,0.032,0,0,0.529,0.407,0,0,0.471,0.593
-533,23.10.2024 16:45,UEFA - Champions League,Atalanta,Celtic,0.66,0.191,0.149,0,0.631,0.397,0.261,0,0.369,0.603,0.739
-536,23.10.2024 19:00,UEFA - Champions League,Manchester City,Sparta Prague,0.932,0.055,0.013,0,0.737,0.515,0.384,0,0.263,0.485,0.616
-537,23.10.2024 19:00,UEFA - Champions League,Young Boys,Internazionale,0.116,0.178,0.706,0,0.61,0.385,0.25,0,0.39,0.615,0.75
-542,24.10.2024 0:30,CONMEBOL - Copa Libertadores,Botafogo FR RJ,Penarol,0.657,0.225,0.119,0.695,0.433,0.223,0,0.305,0.567,0.777,0
-544,8.1.2025 19:00,Spain - Super Cup,Real Madrid,Mallorca,0.68,0.189,0.131,0,0.613,0.389,0.254,0,0.387,0.611,0.746
+2,10.10.2024 6:00,India - Sikkim Premier League,Sikkim Police,Gangtok Himalayan SC,0.751,0.13,0.119,0,0,0.628,0.528,0,0,0.372,0.472
+6,10.10.2024 8:45,Malaysia - President Cup U20,PDRM FA,Johor Darul Ta'zim III,0.116,0.183,0.701,0,0.588,0.362,0,0,0.412,0.638,0
+9,10.10.2024 9:00,Algeria - League 1 U21,CR Belouizdad,MC El Bayadh,0.746,0.159,0.095,0,0.645,0.424,0.29,0,0.355,0.576,0.71
+10,10.10.2024 9:10,FIFA - World Cup Qualifiers Asia,Australia,China,0.822,0.134,0.044,0.788,0.567,0.346,0,0.212,0.433,0.654,0
+16,10.10.2024 10:00,Turkey - Cup,Osmaniyespor 2011,Yeni Diyarbakirspor,0.653,0.199,0.149,0,0.517,0,0,0,0.483,0,0
+22,10.10.2024 11:00,Club Friendlies,Rapid Vienna,SV Horn,0.822,0.117,0.061,0,0,0.477,0.343,0,0,0.523,0.657
+30,10.10.2024 12:00,Club Friendlies,Stuttgart,SSV Ulm,0.663,0.183,0.154,0,0.682,0.453,0.33,0,0.318,0.547,0.67
+43,10.10.2024 12:35,Saudi Arabia - Division 2,Al-Saqer FC,Al-Taqadum,0.871,0.112,0.018,0,0.485,0,0,0,0.515,0,0
+47,10.10.2024 13:00,International - Friendlies U19,Italy,Wales,0.721,0.183,0.096,0,0.568,0.339,0,0,0.432,0.661,0
+55,10.10.2024 15:00,UEFA - U21 Euro Championship Qualifiers,Iceland,Lithuania,0.825,0.119,0.056,0.827,0.627,0.398,0,0.173,0.373,0.602,0
+56,10.10.2024 16:00,Israel - Premier League Women,Maccabi Kishronot Hadera,Kiryat Gat,0.07,0.122,0.808,0,0,0.502,0.376,0,0,0.498,0.624
+58,10.10.2024 16:00,Club Friendlies,SC Verl,Borussia Monchengladbach,0.145,0.135,0.72,0,0,0.491,0.362,0,0,0.509,0.638
+61,10.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Ghana,Sudan,0.765,0.185,0.05,0.701,0.442,0,0,0.299,0.558,0,0
+62,10.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Cape Verde,Botswana,0.697,0.223,0.08,0.666,0.399,0,0,0.334,0.601,0,0
+63,10.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,DR Congo,Tanzania,0.726,0.213,0.06,0.645,0.38,0,0,0.355,0.62,0,0
+64,10.10.2024 16:00,FIFA - World Cup Qualifiers Asia,Qatar,Kyrgyzstan,0.781,0.164,0.055,0.789,0.563,0.34,0,0.211,0.437,0.66,0
+69,10.10.2024 16:00,UEFA - Nations League D,Moldova,Andorra,0.731,0.205,0.064,0.659,0.39,0.19,0,0.341,0.61,0.81,0
+72,10.10.2024 17:00,Club Friendlies,KS Miesko Gniezno,Warta Poznan,0.062,0.084,0.853,0,0,0.623,0.525,0,0,0.377,0.475
+73,10.10.2024 17:30,Israel - Premier League Women,Hapoel Katamon Jerusalem,Ramat Hasharon,0.74,0.16,0.099,0,0.643,0.418,0.284,0,0.357,0.582,0.716
+80,10.10.2024 18:00,UEFA - U21 Euro Championship Qualifiers,Hungary,Malta,0.907,0.068,0.024,0.844,0.665,0.431,0,0.156,0.335,0.569,0
+86,10.10.2024 18:45,UEFA - Nations League B,England,Greece,0.748,0.178,0.074,0.741,0.498,0.272,0,0.259,0.502,0.728,0
+87,10.10.2024 18:45,UEFA - Nations League B,Austria,Kazakhstan,0.868,0.095,0.037,0.866,0.688,0.467,0,0.134,0.312,0.533,0
+93,10.10.2024 18:45,UEFA - Nations League A,Israel,France,0.051,0.123,0.826,0,0.684,0.461,0.326,0,0.316,0.539,0.674
+95,10.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Burkina Faso,Burundi,0.67,0.226,0.105,0.715,0.467,0,0,0.285,0.533,0,0
+96,10.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Algeria,Togo,0.759,0.178,0.063,0,0.512,0,0,0,0.488,0,0
+97,10.10.2024 19:30,CONCACAF - Nations League,French Guiana,Honduras,0.081,0.188,0.73,0,0.507,0,0,0,0.493,0,0
+112,11.10.2024 1:00,CONCACAF - Nations League,St. Vincent and the Grenadines,El Salvador,0.116,0.213,0.672,0,0.528,0,0,0,0.472,0,0
+116,11.10.2024 3:10,Mexico - Liga MX Women,Mazatlan,Club Tijuana,0.104,0.157,0.738,0,0,0.5,0.379,0,0,0.5,0.621
+120,11.10.2024 13:00,CAF - Africa Cup of Nations Qualifiers,Zambia,Chad,0.746,0.195,0.059,0.687,0.426,0,0,0.313,0.574,0,0
+125,11.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Egypt,Mauritania,0.763,0.205,0.032,0,0.496,0,0,0,0.504,0,0
+126,11.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Uganda,South Sudan,0.713,0.213,0.074,0.685,0.421,0,0,0.315,0.579,0,0
+127,11.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Cameroon,Kenya,0.656,0.245,0.099,0.651,0.381,0,0,0.349,0.619,0,0
+129,11.10.2024 16:00,CAF - Africa Cup of Nations Qualifiers,Nigeria,Libya,0.775,0.177,0.048,0.708,0.45,0,0,0.292,0.55,0,0
+138,11.10.2024 17:00,Germany - Regionalliga Bavaria,Schweinfurt,Viktoria Aschaffenburg,0.662,0.192,0.146,0,0.624,0.399,0,0,0.376,0.601,0
+139,11.10.2024 17:00,CAF - Africa Cup of Nations Qualifiers,South Africa,Congo,0.686,0.214,0.1,0,0.48,0,0,0,0.52,0,0
+151,11.10.2024 18:30,Italy - Serie C Group C,Trapani,Messina,0.688,0.202,0.11,0,0.524,0,0,0,0.476,0,0
+166,11.10.2024 18:45,UEFA - Nations League B,Turkey,Montenegro,0.739,0.17,0.091,0.8,0.574,0.351,0,0.2,0.426,0.649,0
+170,11.10.2024 18:45,UEFA - Nations League A,Bosnia and Herzegovina,Germany,0.08,0.146,0.774,0,0.641,0.416,0.281,0,0.359,0.584,0.719
+172,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Mali,Guinea-Bissau,0.71,0.215,0.075,0.674,0.411,0,0,0.326,0.589,0,0
+173,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Gabon,Lesotho,0.687,0.214,0.099,0,0.491,0,0,0,0.509,0,0
+174,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Senegal,Malawi,0.819,0.141,0.039,0,0.536,0.313,0,0,0.464,0.687,0
+175,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Angola,Niger,0.663,0.25,0.087,0.617,0.346,0,0,0.383,0.654,0,0
+176,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Ivory Coast,Sierra Leone,0.84,0.127,0.033,0,0.604,0.379,0,0,0.396,0.621,0
+177,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Tunisia,Comoros,0.767,0.186,0.047,0.676,0.41,0,0,0.324,0.59,0,0
+181,11.10.2024 22:00,Uruguay - Primera Division,Penarol,Deportivo Maldonado,0.714,0.198,0.088,0.71,0.457,0.244,0,0.29,0.543,0.756,0
