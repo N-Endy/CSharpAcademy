@@ -26,10 +26,10 @@ public class SeleniumWebScraper : IWebScraper
             chromeOptions.AddUserProfilePreference("download.prompt_for_download", false);
             chromeOptions.AddUserProfilePreference("download.directory_upgrade", true);
             chromeOptions.AddUserProfilePreference("safebrowsing.enabled", true);
+            chromeOptions.AddArgument("--headless");
             chromeOptions.AddArgument("--no-sandbox");
             chromeOptions.AddArgument("--disable-dev-shm-usage");
             chromeOptions.AddArgument("--remote-debugging-port=9222");
-            chromeOptions.AddArgument("--headless");
 
             var service = ChromeDriverService.CreateDefaultService();
             //service.SuppressInitialDiagnosticInformation = true;

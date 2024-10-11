@@ -30,7 +30,7 @@ public class DataSeeder : IDataSeeder
                 return;
             }
 
-            
+
             // If the Excel file is empty, return
             if (new FileInfo(_filePath).Length == 0)
             {
@@ -48,33 +48,45 @@ public class DataSeeder : IDataSeeder
                 if (worksheet.Dimension == null || worksheet.Cells.Any(cell => cell.Value == null))
                 {
                     Logger.Log("[bold][yellow]Excel file has no data.[/][/]");
+                    return;
                 }
 
                 var rowCount = worksheet.Dimension?.Rows ?? 0;
 
                 for (var row = 2; row <= rowCount; row++)
                 {
-                    // Some flat fields may be null and that's okay
-                    var matchData = new MatchData
+                    var dateString = worksheet.Cells[row, 5].Value?.ToString();
+                    if (dateString != null)
                     {
-                        Date = worksheet.Cells[row, 5].Value?.ToString(),
-                        League = worksheet.Cells[row, 4].Value?.ToString(),
-                        HomeTeam = worksheet.Cells[row, 2].Value?.ToString(),
-                        AwayTeam = worksheet.Cells[row, 3].Value?.ToString(),
-                        HomeWin = double.TryParse(worksheet.Cells[row, 6].Value?.ToString(), out double homeWin) ? homeWin : 0,
-                        Draw = double.TryParse(worksheet.Cells[row, 7].Value?.ToString(), out double draw) ? draw : 0,
-                        AwayWin = double.TryParse(worksheet.Cells[row, 8].Value?.ToString(), out double awayWin) ? awayWin : 0,
-                        OverOneGoal = double.TryParse(worksheet.Cells[row, 14].Value?.ToString(), out double overOneGoal) ? overOneGoal : 0,
-                        OverTwoGoals = double.TryParse(worksheet.Cells[row, 18].Value?.ToString(), out double overTwoGoals) ? overTwoGoals : 0,
-                        OverThreeGoals = double.TryParse(worksheet.Cells[row, 22].Value?.ToString(), out double overThreeGoals) ? overThreeGoals : 0,
-                        OverFourGoals = double.TryParse(worksheet.Cells[row, 24].Value?.ToString(), out double overFourGoals) ? overFourGoals : 0,
-                        UnderOneGoal = double.TryParse(worksheet.Cells[row, 30].Value?.ToString(), out double underOneGoal) ? underOneGoal : 0,
-                        UnderTwoGoals = double.TryParse(worksheet.Cells[row, 34].Value?.ToString(), out double underTwoGoals) ? underTwoGoals : 0,
-                        UnderThreeGoals = double.TryParse(worksheet.Cells[row, 38].Value?.ToString(), out double underThreeGoals) ? underThreeGoals : 0,
-                        UnderFourGoals = double.TryParse(worksheet.Cells[row, 40].Value?.ToString(), out double underFourGoals) ? underFourGoals : 0
-                    };
+                        string[] datePart = dateString.Split(' ')[0].Split('.');
+                        if (datePart.Length > 0 && int.TryParse(datePart[0], out int day))
+                        {
+                            int currentDay = DateTime.Now.Day;
 
-                    extractedData.Add(matchData);
+                            if (day == currentDay)
+                            {
+                                var matchData = new MatchData
+                                {
+                                    Date = dateString,
+                                    League = worksheet.Cells[row, 4].Value?.ToString(),
+                                    HomeTeam = worksheet.Cells[row, 2].Value?.ToString(),
+                                    AwayTeam = worksheet.Cells[row, 3].Value?.ToString(),
+                                    HomeWin = double.TryParse(worksheet.Cells[row, 6].Value?.ToString(), out double homeWin) ? homeWin : 0,
+                                    Draw = double.TryParse(worksheet.Cells[row, 7].Value?.ToString(), out double draw) ? draw : 0,
+                                    AwayWin = double.TryParse(worksheet.Cells[row, 8].Value?.ToString(), out double awayWin) ? awayWin : 0,
+                                    OverOneGoal = double.TryParse(worksheet.Cells[row, 14].Value?.ToString(), out double overOneGoal) ? overOneGoal : 0,
+                                    OverTwoGoals = double.TryParse(worksheet.Cells[row, 18].Value?.ToString(), out double overTwoGoals) ? overTwoGoals : 0,
+                                    OverThreeGoals = double.TryParse(worksheet.Cells[row, 22].Value?.ToString(), out double overThreeGoals) ? overThreeGoals : 0,
+                                    OverFourGoals = double.TryParse(worksheet.Cells[row, 24].Value?.ToString(), out double overFourGoals) ? overFourGoals : 0,
+                                    UnderOneGoal = double.TryParse(worksheet.Cells[row, 30].Value?.ToString(), out double underOneGoal) ? underOneGoal : 0,
+                                    UnderTwoGoals = double.TryParse(worksheet.Cells[row, 34].Value?.ToString(), out double underTwoGoals) ? underTwoGoals : 0,
+                                    UnderThreeGoals = double.TryParse(worksheet.Cells[row, 38].Value?.ToString(), out double underThreeGoals) ? underThreeGoals : 0,
+                                    UnderFourGoals = double.TryParse(worksheet.Cells[row, 40].Value?.ToString(), out double underFourGoals) ? underFourGoals : 0
+                                };
+                                extractedData.Add(matchData);
+                            }
+                        }
+                    }
                 }
             }
             else

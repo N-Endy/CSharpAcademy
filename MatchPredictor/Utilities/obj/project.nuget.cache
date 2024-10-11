@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ScdpXSYtneZbVuUUMxW6z5kVqoeC22bIECklnPZ7XNt9NqYZbyhs9dVE0peWhM4TSfCbqyzAqMWeD+7V93gPOg==",
+  "dgSpecHash": "YKKd8r8gcHdqzhE9rpGd0/Ws+gr7zxrI34emqZ6p3aH+9wGPCEfxd0YHftBYkr7QJXaWsh6cE6RDDLEVd9aA1Q==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/Projects/CSharpAcademy/MatchPredictor/Utilities/Utilities.csproj",
   "expectedPackageFiles": [
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512"
   ],

@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Configuration;
+
+
 using Shared.Models;
 
 namespace Utilities;
@@ -19,7 +21,7 @@ public class ConfigReader
             SmtpPort = int.TryParse(_configuration["Email:SmtpPort"], out var smtpPort) ? smtpPort : throw new ArgumentException("Email:SmtpPort"),
             Password = _configuration["Email:Password"] ?? throw new ArgumentNullException("Email:Password"),
             FromAddress = _configuration["Email:FromAddress"] ?? throw new ArgumentNullException("Email:FromAddress"),
-            ToAddress = _configuration["Email:ToAddress"] ?? string.Empty
+            ToAddresses = _configuration.GetSection("Email:ToAddress").Get<List<string>>() ?? []
         };
     }
 }

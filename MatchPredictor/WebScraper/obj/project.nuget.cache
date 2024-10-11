@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SdD1WxAWZKhoij04VfxoShoGWuVGtohBFTZkbjc9nkcEwTa9LAS1wVbFoAb0oEZaY6NUMFZnCGO0VZgyafBGqw==",
+  "dgSpecHash": "fg3J1qydcJcREZ01/ca6YrwgWeJhvhs4fo5ceoRQMt0EdryL8Dls1LzOUnkJkMM2AfdkAVSWRAClVqn2gI9JYg==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/Projects/CSharpAcademy/MatchPredictor/WebScraper/WebScraper.csproj",
   "expectedPackageFiles": [
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/selenium.webdriver/4.24.0/selenium.webdriver.4.24.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/selenium.webdriver.chromedriver/129.0.6668.5800/selenium.webdriver.chromedriver.129.0.6668.5800.nupkg.sha512",

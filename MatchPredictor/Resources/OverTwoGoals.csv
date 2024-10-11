@@ -1,17 +1,29 @@
 Id,Date,League,HomeTeam,AwayTeam,HomeWin,Draw,AwayWin,OverOneGoal,OverTwoGoals,OverThreeGoals,OverFourGoals,UnderOneGoal,UnderTwoGoals,UnderThreeGoals,UnderFourGoals
-9,10.10.2024 9:00,Algeria - League 1 U21,CR Belouizdad,MC El Bayadh,0.746,0.159,0.095,0,0.645,0.424,0.29,0,0.355,0.576,0.71
-12,10.10.2024 9:30,Club Friendlies,Winterthur,FC Wil,0.519,0.231,0.249,0,0.604,0.377,0,0,0.396,0.623,0
-20,10.10.2024 11:00,Club Friendlies,ADO Den Haag,NAC Breda,0.51,0.241,0.249,0,0.605,0.385,0,0,0.395,0.615,0
-30,10.10.2024 12:00,Club Friendlies,Stuttgart,SSV Ulm,0.663,0.183,0.154,0,0.682,0.453,0.33,0,0.318,0.547,0.67
-31,10.10.2024 12:00,Club Friendlies,Augsburg,Jahn Regensburg,0.598,0.217,0.185,0,0.623,0.399,0,0,0.377,0.601,0
-32,10.10.2024 12:00,Club Friendlies,Karlsruher SC,Wehen Wiesbaden,0.64,0.192,0.168,0,0.665,0.438,0.308,0,0.335,0.562,0.692
-55,10.10.2024 15:00,UEFA - U21 Euro Championship Qualifiers,Iceland,Lithuania,0.825,0.119,0.056,0.827,0.627,0.398,0,0.173,0.373,0.602,0
-73,10.10.2024 17:30,Israel - Premier League Women,Hapoel Katamon Jerusalem,Ramat Hasharon,0.74,0.16,0.099,0,0.643,0.418,0.284,0,0.357,0.582,0.716
-80,10.10.2024 18:00,UEFA - U21 Euro Championship Qualifiers,Hungary,Malta,0.907,0.068,0.024,0.844,0.665,0.431,0,0.156,0.335,0.569,0
-87,10.10.2024 18:45,UEFA - Nations League B,Austria,Kazakhstan,0.868,0.095,0.037,0.866,0.688,0.467,0,0.134,0.312,0.533,0
-93,10.10.2024 18:45,UEFA - Nations League A,Israel,France,0.051,0.123,0.826,0,0.684,0.461,0.326,0,0.316,0.539,0.674
-124,11.10.2024 14:30,Norway - 2nd Division,Skeid,Stjordals-Blink,0.602,0.214,0.185,0,0.612,0.389,0,0,0.388,0.611,0
-138,11.10.2024 17:00,Germany - Regionalliga Bavaria,Schweinfurt,Viktoria Aschaffenburg,0.662,0.192,0.146,0,0.624,0.399,0,0,0.376,0.601,0
-140,11.10.2024 17:30,Germany - Regionalliga West,SC Wiedenbruck 2000,Turkspor Dortmund,0.535,0.229,0.236,0,0.645,0.426,0.297,0,0.355,0.574,0.703
-170,11.10.2024 18:45,UEFA - Nations League A,Bosnia and Herzegovina,Germany,0.08,0.146,0.774,0,0.641,0.416,0.281,0,0.359,0.584,0.719
-176,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Ivory Coast,Sierra Leone,0.84,0.127,0.033,0,0.604,0.379,0,0,0.396,0.621,0
+14,11.10.2024 9:00,Club Friendlies,FC Zurich,FC Vaduz,0.688,0.183,0.129,0,0.645,0.422,0.288,0,0.355,0.578,0.712
+30,11.10.2024 12:30,Slovakia - 2. Liga,OFK Malzenice,Slovan Bratislava II,0.521,0.234,0.245,0,0.606,0.376,0,0,0.394,0.624,0
+31,11.10.2024 12:45,Club Friendlies,Levski Sofia,Hebar,0.73,0.166,0.104,0,0.607,0.378,0,0,0.393,0.622,0
+45,11.10.2024 13:30,Croatia - 2. NL,Hrvace,Marsonia,0.531,0.217,0.251,0,0.683,0.469,0.344,0,0.317,0.531,0.656
+52,11.10.2024 13:30,Club Friendlies,Grazer AK,Voitsberg,0.641,0.199,0.159,0,0.637,0.418,0.286,0,0.363,0.582,0.714
+65,11.10.2024 15:00,Club Friendlies,Anorthosis Famagusta,Ethnikos Achna,0.649,0.158,0.194,0,0.622,0.39,0,0,0.378,0.61,0
+72,11.10.2024 16:00,Czech Republic - 3. Liga MSFL,FC Hlucin,Karvina II,0.548,0.229,0.222,0,0.62,0.399,0,0,0.38,0.601,0
+81,11.10.2024 16:00,UEFA - U21 Euro Championship Qualifiers,Germany,Bulgaria,0.901,0.067,0.032,0.865,0.699,0.48,0.355,0.135,0.301,0.52,0.645
+89,11.10.2024 16:30,Austria - Landesliga,SV Grodig,FC Puch,0.688,0.169,0.143,0,0.682,0.46,0.331,0,0.318,0.54,0.669
+90,11.10.2024 16:30,Austria - Landesliga,KAC 1909,ATUS Velden,0.197,0.213,0.59,0,0.646,0.426,0.3,0,0.354,0.574,0.7
+95,11.10.2024 16:30,UEFA - U21 Euro Championship Qualifiers,Turkiye,Latvia,0.763,0.15,0.087,0.851,0.66,0.437,0,0.149,0.34,0.563,0
+97,11.10.2024 16:45,Qatar - Stars Cup,Al Rayyan,Qatar SC,0.582,0.216,0.202,0,0.645,0.426,0.295,0,0.355,0.574,0.705
+102,11.10.2024 17:00,Austria - Regionalliga Mitte,SV Wildon,Wolfsberger AC II,0.195,0.207,0.598,0,0.63,0.405,0,0,0.37,0.595,0
+103,11.10.2024 17:00,Austria - Regionalliga Mitte,DSV Leoben,Askoe Oedt,0.616,0.191,0.193,0,0.679,0.455,0.327,0,0.321,0.545,0.673
+105,11.10.2024 17:00,Austria - Regionalliga Mitte,LASK Linz (Am),Deutschlandsberger SC,0.504,0.238,0.258,0,0.667,0.453,0.33,0,0.333,0.547,0.67
+107,11.10.2024 17:00,Austria - Landesliga,Salzburger AK 1914,ASK Salzburg,0.576,0.21,0.214,0,0.666,0.447,0.32,0,0.334,0.553,0.68
+110,11.10.2024 17:00,Germany - Oberliga Bayern Nord,DJK Gebenbach,ASV Neumarkt,0.358,0.238,0.404,0,0.666,0.453,0.33,0,0.334,0.547,0.67
+129,11.10.2024 17:30,Germany - Oberliga Niederrhein,Ratinger Spvg Germania,Teutonia St.Tonis,0.569,0.21,0.221,0,0.678,0.461,0.336,0,0.322,0.539,0.664
+131,11.10.2024 17:30,Germany - Oberliga Niedersachsen,S-W Rehden,Bersenbruck,0.41,0.227,0.363,0,0.663,0.444,0.32,0,0.337,0.556,0.68
+133,11.10.2024 17:30,Germany - Oberliga Bayern Sud,Unterhaching II,Memmingen,0.213,0.216,0.572,0,0.648,0.413,0.277,0,0.352,0.587,0.723
+135,11.10.2024 17:30,Germany - Regionalliga West,SC Wiedenbruck 2000,Turkspor Dortmund,0.562,0.212,0.226,0,0.678,0.462,0.335,0,0.322,0.538,0.665
+139,11.10.2024 18:00,England - Professional Development League U21,Colchester United,Queens Park Rangers,0.36,0.218,0.422,0,0.66,0.437,0.318,0,0.34,0.563,0.682
+151,11.10.2024 18:30,Ireland - Leinster Senior League,Usher Celtic,Maynooth University Town FC,0.542,0.232,0.227,0,0.615,0.394,0,0,0.385,0.606,0
+152,11.10.2024 18:30,Ireland - Leinster Senior League,Kilbarrack United,Malahide United,0.52,0.237,0.244,0,0.621,0.401,0,0,0.379,0.599,0
+184,11.10.2024 18:45,UEFA - U21 Euro Championship Qualifiers,England,Ukraine,0.75,0.156,0.094,0.838,0.637,0.412,0,0.162,0.363,0.588,0
+191,11.10.2024 18:45,UEFA - Nations League A,Bosnia and Herzegovina,Germany,0.075,0.146,0.78,0,0.655,0.433,0.297,0,0.345,0.567,0.703
+192,11.10.2024 19:00,France - Feminine Division 1,Le Havre,AS Saint-Etienne,0.276,0.22,0.504,0,0.642,0.418,0.289,0,0.358,0.582,0.711
+200,11.10.2024 19:00,CAF - Africa Cup of Nations Qualifiers,Ivory Coast,Sierra Leone,0.835,0.131,0.034,0,0.608,0.382,0,0,0.392,0.618,0

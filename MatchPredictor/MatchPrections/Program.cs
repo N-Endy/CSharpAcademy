@@ -45,7 +45,6 @@ async Task RunProgram(IServiceProvider serviceProvider)
     Logger.Log("[lime]Starting Football Match Predictor...[/]");
 
     await scraper.DownloadExcelFile();
-    Logger.Log("[lime]Excel file downloaded and processed successfully.[/]");
 
     IExcelToDatabaseOperation dataController = serviceProvider.GetRequiredService<IExcelToDatabaseOperation>();
     await dataController.RunOperation();
@@ -58,5 +57,4 @@ async Task RunProgram(IServiceProvider serviceProvider)
 
     IEmailController emailController = serviceProvider.GetRequiredService<IEmailController>();
     await emailController.SendEmailAsync();
-    Logger.Log("[lime]Email notification sent successfully.[/]");
 }

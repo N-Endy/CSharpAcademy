@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8zf7E+dOTigebqU9x6SB5ZiWZ5QglzAWMfgaJTtNzXVEs79i7RfysC3EjHI3nG44XedW24OVIhyn3i4cX4AAqQ==",
+  "dgSpecHash": "bcqW/on1EpxNd6VxiwBYCtTQRU7pD+AWkleToIiBep8Aety6UUkZu++mVKTc0diIBTKqX5lj2SMGIK0iRe+hBw==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/Projects/CSharpAcademy/MatchPredictor/Data/Data.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "/home/nelson/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
