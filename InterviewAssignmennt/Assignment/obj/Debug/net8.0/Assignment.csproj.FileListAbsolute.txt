@@ -1,0 +1,14 @@
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/bin/Debug/net8.0/Assignment
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/bin/Debug/net8.0/Assignment.deps.json
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/bin/Debug/net8.0/Assignment.runtimeconfig.json
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/bin/Debug/net8.0/Assignment.dll
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/bin/Debug/net8.0/Assignment.pdb
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.AssemblyInfoInputs.cache
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.AssemblyInfo.cs
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.csproj.CoreCompileInputs.cache
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.dll
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/refint/Assignment.dll
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.pdb
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/Assignment.genruntimeconfig.cache
+/home/nelson/Desktop/Projects/InterviewAssignmennt/Assignment/obj/Debug/net8.0/ref/Assignment.dll
