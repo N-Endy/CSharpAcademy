@@ -15,13 +15,10 @@ public class ConfigReader
 
     public EmailSettings GetEmailSettings()
     {
-        return new EmailSettings
-        {
-            SmtpServer = _configuration["Email:SmtpServer"] ?? throw new ArgumentNullException("Email:SmtpServer"),
-            SmtpPort = int.TryParse(_configuration["Email:SmtpPort"], out var smtpPort) ? smtpPort : throw new ArgumentException("Email:SmtpPort"),
-            Password = _configuration["Email:Password"] ?? throw new ArgumentNullException("Email:Password"),
-            FromAddress = _configuration["Email:FromAddress"] ?? throw new ArgumentNullException("Email:FromAddress"),
-            ToAddresses = _configuration.GetSection("Email:ToAddress").Get<List<string>>() ?? []
-        };
+        var emailSettingsSection = _configuration.GetSection("Email") ?? throw new ArgumentNullException("Email section not found in configuration");
+        
+        var emailSettings = emailSettingsSection.Get<EmailSettings>() ?? throw new ArgumentNullException("Unable to bind Email settings from configuration");
+        
+        return emailSettings;
     }
 }

@@ -13,7 +13,7 @@ public class DataAnalyzer : IDataAnalyzer
 
     public IEnumerable<MatchData> BothTeamsScore()
     {
-        return _repository.GetMatchData().Result.Where(x => (x.HomeWin > 0.35 && x.AwayWin > 0.35 && x.OverTwoGoals > 0.6) || (x.HomeWin > x.Draw && x.AwayWin > x.Draw && x.OverTwoGoals > 0.6) || (x.HomeWin > x.Draw && x.AwayWin > x.Draw && x.OverThreeGoals > 0.5));
+        return _repository.GetMatchData().Result.Where(x => (x.HomeWin > 0.35 && x.AwayWin > 0.35 && x.OverTwoGoals > 0.6) || (x.HomeWin > x.Draw && x.AwayWin > x.Draw && x.OverTwoGoals > 0.6) || (x.HomeWin > x.Draw && x.AwayWin > x.Draw && x.OverThreeGoals > 0.55) || (x.HomeWin > 0.35 && x.AwayWin > 0.35 && x.OverThreeGoals > 0.55));
     }
 
     public IEnumerable<MatchData> Draw()
@@ -28,12 +28,12 @@ public class DataAnalyzer : IDataAnalyzer
 
     public IEnumerable<MatchData> OverTwoGoals()
     {
-        return _repository.GetMatchData().Result.Where(x => (x.HomeWin > 0.35 && x.AwayWin > 0.35 && x.OverTwoGoals > 0.65) || ((x.HomeWin + x.Draw ) < x.AwayWin && x.OverTwoGoals > 0.6) || ((x.AwayWin + x.Draw ) < x.HomeWin && x.OverTwoGoals > 0.6));
+        return _repository.GetMatchData().Result.Where(x => (x.HomeWin > 0.35 && x.AwayWin > 0.35 && x.OverTwoGoals > 0.65) || ((x.HomeWin + x.Draw ) < x.AwayWin && x.OverTwoGoals > 0.65) || ((x.AwayWin + x.Draw ) < x.HomeWin && x.OverTwoGoals > 0.65));
     }
 
     public IEnumerable<MatchData> StraightWin()
     {
-        return _repository.GetMatchData().Result.Where(x => x.HomeWin > 0.65 || x.AwayWin > 0.67);
+        return _repository.GetMatchData().Result.Where(x => (x.HomeWin > 0.65 && x.OverTwoGoals > 0.6) || (x.AwayWin > 0.67 && x.OverTwoGoals > 0.6));
     }
 
     public IEnumerable<MatchData> UnderTwoGoals()
