@@ -57,6 +57,12 @@ public class CsvExporter : ICsvExporter
         WriteToCsv(underTwoGoalsMatches, "UnderTwoGoals.csv");
     }
 
+    public void ExportDrawOrUnderTwoGoals()
+    {
+        var drawOrUnderTwoGoalsMatches = _dataAnalyzer.DrawOrUnder2();
+        WriteToCsv(drawOrUnderTwoGoalsMatches, "DrawOrUnderTwoGoals.csv");
+    }
+
     private void WriteToCsv(IEnumerable<MatchData> matches, string fileName)
     {
         string filePath = Path.Combine(_resourcesFolder, fileName);

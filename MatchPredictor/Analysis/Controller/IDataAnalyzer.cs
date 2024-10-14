@@ -9,4 +9,5 @@ public interface IDataAnalyzer
     IEnumerable<MatchData> Draw();
     IEnumerable<MatchData> BothTeamsScore();
     IEnumerable<MatchData> OverThreeGoals();
+    IEnumerable<MatchData> DrawOrUnder2();
 }

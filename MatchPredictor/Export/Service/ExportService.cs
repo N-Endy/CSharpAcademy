@@ -21,6 +21,7 @@ public class ExportService : IExportService
         _csvExporter.ExportUnderTwoGoals();
         _csvExporter.ExportBothTeamScore();
         _csvExporter.ExportOverThreeGoals();
+        _csvExporter.ExportDrawOrUnderTwoGoals();
     }
 
     public void ExportToExcel(IEnumerable<MatchData> matches, string filePath)

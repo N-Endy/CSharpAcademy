@@ -18,7 +18,7 @@ public class DataAnalyzer : IDataAnalyzer
 
     public IEnumerable<MatchData> Draw()
     {
-        return _repository.GetMatchData().Result.Where(x => (x.Draw > 0.34 && x.HomeWin < 0.34 && x.AwayWin < 0.34 && x.UnderTwoGoals > 0.65) || (x.HomeWin < 0.34 && x.AwayWin < 0.34 && x.UnderThreeGoals > 0.75));
+        return _repository.GetMatchData().Result.Where(x => (x.Draw > 0.35 && x.HomeWin < 0.34 && x.AwayWin < 0.34 && x.UnderTwoGoals > 0.65) || (x.HomeWin < 0.34 && x.AwayWin < 0.34 && x.UnderThreeGoals > 0.75) || x.Draw > 3.6);
     }
 
     public IEnumerable<MatchData> OverThreeGoals()
@@ -39,5 +39,10 @@ public class DataAnalyzer : IDataAnalyzer
     public IEnumerable<MatchData> UnderTwoGoals()
     {
         return _repository.GetMatchData().Result.Where(x => x.HomeWin < 0.35 && x.AwayWin < 0.35 && x.UnderTwoGoals > 0.65);
+    }
+
+    public IEnumerable<MatchData> DrawOrUnder2()
+    {
+        return _repository.GetMatchData().Result.Where(x => x.HomeWin > 0.3 && x.Draw > 0.3 && x.AwayWin > 0.3);
     }
 }

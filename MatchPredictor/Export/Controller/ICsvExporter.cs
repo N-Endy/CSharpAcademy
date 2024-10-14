@@ -7,4 +7,5 @@ public interface ICsvExporter
     void ExportUnderTwoGoals();
     void ExportBothTeamScore();
     void ExportOverThreeGoals();
+    void ExportDrawOrUnderTwoGoals();
 }

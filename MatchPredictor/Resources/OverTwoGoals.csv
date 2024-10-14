@@ -1,3 +1,4 @@
 Id,Date,League,HomeTeam,AwayTeam,HomeWin,Draw,AwayWin,OverOneGoal,OverTwoGoals,OverThreeGoals,OverFourGoals,UnderOneGoal,UnderTwoGoals,UnderThreeGoals,UnderFourGoals
-10,14.10.2024 12:00,Argentina - Youth League U20,Temperley,All Boys,0.534,0.227,0.239,0,0.654,0.438,0.309,0,0.346,0.562,0.691
-32,14.10.2024 16:00,Germany - Bundesliga Women,1. FFC Frankfurt,Freiburg,0.804,0.132,0.064,0,0.67,0.446,0.316,0,0.33,0.554,0.684
+7,14.10.2024 16:00,Germany - Bundesliga Women,1. FFC Frankfurt,Freiburg,0.821,0.125,0.054,0,0.682,0.458,0.327,0,0.318,0.542,0.673
+17,14.10.2024 18:30,Brazil - Copa Goias U20,Atletico Goianiense,Guanabara City,0.852,0.103,0.045,0,0.68,0.459,0.324,0,0.32,0.541,0.676
+22,14.10.2024 20:00,CONCACAF - Nations League,Puerto Rico,Sint Maarten,0.635,0.206,0.159,0,0.679,0.465,0.334,0,0.321,0.535,0.666
